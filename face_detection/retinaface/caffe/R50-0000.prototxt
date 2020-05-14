@@ -2983,7 +2983,7 @@ layer {
   top: "face_rpn_cls_score_reshape_stride32"
   reshape_param {
     shape {
-      dim: 1
+      dim: 0
       dim: 2
       dim: -1
       dim: 0
@@ -3066,7 +3066,7 @@ layer {
   top: "face_rpn_cls_prob_reshape_stride32"
   reshape_param {
     shape {
-      dim: 1
+      dim: 0
       dim: 4
       dim: -1
       dim: 0
@@ -3278,7 +3278,7 @@ layer {
   top: "face_rpn_cls_score_reshape_stride16"
   reshape_param {
     shape {
-      dim: 1
+      dim: 0
       dim: 2
       dim: -1
       dim: 0
@@ -3323,7 +3323,7 @@ layer {
   top: "face_rpn_cls_prob_reshape_stride16"
   reshape_param {
     shape {
-      dim: 1
+      dim: 0
       dim: 4
       dim: -1
       dim: 0
@@ -3421,7 +3421,7 @@ layer {
   top: "face_rpn_cls_score_reshape_stride8"
   reshape_param {
     shape {
-      dim: 1
+      dim: 0
       dim: 2
       dim: -1
       dim: 0
@@ -3444,7 +3444,7 @@ layer {
   top: "face_rpn_cls_prob_reshape_stride8"
   reshape_param {
     shape {
-      dim: 1
+      dim: 0
       dim: 4
       dim: -1
       dim: 0
